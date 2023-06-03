@@ -4,18 +4,18 @@ Atributos: características
 
 - id: identificador do elemento
 
-<h1> título 
-<p> parágrafo
-<blockquote> citação
+<h1> título </h1>
+<p> parágrafo <p>
+<blockquote> citação </blockquote>
 
-<strong> negrito
-<i> itálico
-<u> underline
-<mark> marca texto
-<sub> sobrescrito
-<ol> lista ordenada
-<ul> lista não ordenada
-<li> item de lista
+<strong> negrito </n>
+<i> itálico </i>
+<u> underline </u>
+<mark> marca texto </mark
+<sub> sobrescrito </sub>
+<ol> lista ordenada </ol>
+<ul> lista não ordenada </ul>
+<li> item de lista </li>
 
 #### Formulários
 
