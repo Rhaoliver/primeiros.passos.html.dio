@@ -17,7 +17,7 @@ Atributos: características
 <ul> lista não ordenada </ul>
 <li> item de lista </li>
 
-#### Formulários
+### Formulários
 
 <form> formulário
 -atributo action: colocar o endereço do servidor para onde os dados serão enviados
@@ -31,7 +31,7 @@ Atributos: características
 <button> coloca botão // submit
 
 
-##### Input e tipos
+### Input e tipos
 
 
 type="text" : campo texto
@@ -50,21 +50,21 @@ type="file" : campo enviar arquivos // multiple para aceitar vários arquivos
 type="search" : campo de busca // aparece um "x" no final para limpar a busca
 
 
-##### Checkbox e radio
+### Checkbox e radio
 
 checkbox: uma variável com diversos valores // para fazer enviar como lista para o backend, colocar name="opcional[]" e no <form method="post"> //
 radio: para selecionar um ou outro, colocar name="" value=""
 disable: desabilita a opção
 
 
-##### Button
+### Button
 
 button: aplicar "on" pelo javascript
 reset: limpar os campos do formulário em que está incluído
 submit: enviar o formulário (o enter do teclado é o submit no formulário, por isso deve estar dentro da tag <form> para que seja validado antes de enviar)
 
 
-##### Select
+### Select
 
 select box: lista pré-definida de valores que se quer que o usuário escolha // selected: pré-selecionado para aparecer // multiple: selecionar mais de um
 <select name="role">
@@ -75,13 +75,13 @@ select box: lista pré-definida de valores que se quer que o usuário escolha //
 
 
 
-##### Textarea
+### Textarea
 
 dá para definir rows e columns para deixar fixo
 
 
 
-#### Estruturação do HTML e formatações
+## Estruturação do HTML e formatações
 
 <sup>: caractere "elevado"
 <sub>: caractere "abaixado"
@@ -89,7 +89,7 @@ dá para definir rows e columns para deixar fixo
 <fonte color="" face=""> cor, fonte(letras) 
 
 
-##### Tags div e span
+### Tags div e span
 
 são utilizadas para estruturar o HTML
 
@@ -98,7 +98,7 @@ são utilizadas para estruturar o HTML
 
 
 
-##### Tag fieldset
+### Tag fieldset
 
 tag auxiliar, que encapsula o conteúdo
 utilizada junto com a tag <legend>
@@ -109,16 +109,16 @@ utilizada junto com a tag <legend>
             <label> <input>
 
 
-##### Tag embeds e iframes
+### Tag embeds e iframes
 
 <embed> tag não mais utilizada, mas era utilizada para carregar uma mídia
 <iframe> tag que coloca um site dentro de outro site, mantendo atualizado... além de mídias como o <emded>, carrega videos e outros sites tbm
 
 
-#### Mídias
+## Mídias
 
 
-##### Imagem
+### Imagem
 <img src=""> aceita formatos:
 - gif
 - png (melhor que jpg, e é possível conseguir transparência - utilizar em caso de logotipo)
@@ -128,38 +128,38 @@ utilizada junto com a tag <legend>
 <svg> melhor do que a tag img no caso do arquivo svg
 
 
-###### Atributos
+##### Atributos
 
 title="" define o título da imagem para o usuário quando passar o mouse por cima
 alt="" bom para a acessibilidade, definindo uma "tradução da imagem" ou descrição 
 
 
-##### Áudio
+### Áudio
 
 evolução da embed, sendo exclusivo pra som
 
 <audio src=""> aceita formatos:
 - mp3
 
-###### Atributos
+##### Atributos
 autoplay
 controls
 
 
-##### Vídeo
+### Vídeo
 
 <video src=""> aceita formatos:
 - mp4
 - webm
 
-##### Track
+### Track
 
 auxiliar da tag <video>, sendo a legenda
 
 <track src=""> aceita formatos:
 - mp3
 
-###### Atributos
+##### Atributos
 kind=""
 
     -captions
@@ -172,7 +172,7 @@ srclang="" língua falada
 
 
 
-#### Tabelas
+### Tabelas
 
 <table cellspacing="espaçamento entre células - já vem por padrão (eliminar caso for editar no css)" cellpadding="espaçamento entre borda e conteúdo" summary="descrição do assunto da tabela">
     <tr>
